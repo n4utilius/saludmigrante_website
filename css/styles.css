@@ -1,0 +1,47 @@
+html, body{
+	margin 10px;
+}
+
+#banner img{
+	height: 300px;
+	width: 1000px;
+}
+
+.top-bar {
+	background: #fff;
+	margin: 20px 40px 30px 40px ;
+	padding-bottom: 80px;
+	padding-top: 0px;
+	border-bottom: 4px solid #008cba;
+	border-top: 3px solid #008cba;
+}
+
+.top-bar p {
+	margin-top: -15px;
+
+}
+
+.top-bar h2{
+	background: img("../img/logo.png")
+}
+
+.top-bar-section ul{
+	background-color: #fff;
+	margin-top:0px;
+}
+
+.top-bar-section li{
+	margin:1px;
+}
+
+section {
+	padding:10px;
+	margin:10px;
+}
+
+img{
+	width:400px;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid #999;
+}

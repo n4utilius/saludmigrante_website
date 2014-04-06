@@ -1,0 +1,78 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Salud Migrante | Quienes Somos</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/foundation.css" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/twentytwenty.css" />
+
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    <nav class="top-bar" data-topbar>
+      <ul class="title-area">
+        <li class="name large-push-1">
+          <h2><a href="./"> Salud Migrante </a></h2>
+          <p>Por que todos los mexicanos tienen derecho a servicios de salud, estén donde est´n</p>
+        </li>
+      </ul>
+
+      <section class="top-bar-section">
+        <!-- Right Nav Section -->
+        <ul class="right">
+          <li class="active"><a href="./metodologia.html">Metodología</a></li>
+          <li class="active"><a href="./historias.html">Historias</a></li>
+          <li class="active"><a href="./faq.html">Preguntas Frecuentes</a></li>
+          <li class="active"><a href="./quienes_somos.html">Quienes Somos</a></li>
+        </ul>
+      </section>
+    </nav>
+    
+    <div class="row" id="content">
+      <div class="large-12 left columns" id="populatio_info"> 
+          <h2> ¿QUIÉNES SOMOS? </h1>
+            <img src="./img/mundos.jpg" class="left">
+            <p>
+              <br>
+              Apenas nos conocimos en el #Migrahack en el DF y, sin pensarlo, comenzamos
+              a trabajar juntos en este proyecto de salud migrante. Somos programadores, 
+              diseñadores, cartógrafos, biólogos, economistas y periodistas, todos aportando en 
+              equipo, creyendo que debemos y podemos cambiar la realidad de nuestros migrantes.
+            </p>
+      </div>             
+    </div>
+
+
+  <!-- Aplicación -->
+ 
+
+  <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/jquery.event.move.js"></script>
+    <script src="js/jquery.twentytwenty.js"></script>
+
+  <script src="lib/underscore/underscore.js"></script>
+  <script src="lib/backbone/backbone.js"></script>
+  <script src="lib/d3/d3.min.js"></script>
+
+  <script src="js/backbone/ChartView.js"></script>
+  <script src="js/backbone/Data.js"></script>
+  <script src="js/backbone/Charts.js"></script>
+  <script src="js/backbone/app.js"></script>
+    
+  
+
+    <script>
+      $(document).foundation();
+
+      $(window).load(function(){
+        $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.5});
+        $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.5, orientation: 'vertical'});
+      });
+    </script>
+  </body>
+</html>
